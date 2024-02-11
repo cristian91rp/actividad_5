@@ -1,0 +1,25 @@
+<div class="form">
+    <button class="desplegable" (click)="desplegable()"><img src="https://cdn.icon-icons.com/icons2/1776/PNG/512/multipleline_114207.png" alt=""></button>
+    @if(contador % 2 === 0){
+        <div>
+            <label for="tittle">Título de la Noticia</label>
+            <input type="text" id="tittle" [(ngModel)]="newNoticia.tittle">
+        </div>
+        <div>
+            <label for="url">URL de Foto</label>
+            <input type="url" id="url" name= "url" [(ngModel)]="newNoticia.url">
+        </div>
+        <div class="contenido">
+            <label for="content">Contenido Noticia</label>
+        <!--  <input type="text" id="content"> -->
+            <textarea name="content" id="content" [(ngModel)]="newNoticia.text"></textarea>
+        </div>
+        <div class="fecha">
+            <label for="tittle">Fecha publicación</label>
+            <input type="date" id="tittle" [(ngModel)]="newNoticia.date">
+        </div>
+        <button class="enviar" (click)="guardar()">Enviar</button>
+    }@else{
+    
+    }
+</div>

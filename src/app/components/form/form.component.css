@@ -1,0 +1,55 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+.desplegable{
+    border: none;
+    background-color: white;
+}
+
+.desplegable img{
+    width: 35px;
+}
+
+.desplegable img:hover{
+    cursor: pointer;
+}
+
+.form div{
+    display: flex;
+    flex-direction:column;
+    width: 900px;
+}
+
+.enviar{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border: 1px solid rgb(60,64,67);
+    border-radius: 15px;
+    background-color:white;    
+}
+
+.enviar:hover{
+    background-color: rgb(203, 203, 203);
+    border: none;
+
+}
+
+.contenido textarea{
+    height: 100px;
+    max-width: 100%;
+}
+
+.fecha input{
+    width: 130px;
+}
+
+div input,textarea{
+    background-color: rgb(244, 244, 244);
+    border: none;
+    border-radius: 5px;
+}

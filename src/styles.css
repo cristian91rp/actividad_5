@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+@media (max-width: 480px) {
+    section{
+        grid-template-columns: auto;
+    }      
+}
+  
+
+.articulo{
+    padding: 20px;
+    padding-top: 0;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+
+.articulo img{
+    width: 600px;
+}
+
+.articulo time{
+    font-size: x-small;
+    margin-top: auto;
+}

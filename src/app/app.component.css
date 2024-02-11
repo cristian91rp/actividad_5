@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    margin: auto;
+    width: auto;
+    height: auto;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(100, 100, 100)
+}
+
+div {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+
